@@ -12,7 +12,7 @@ namespace Solid
     {
         static void Main(string[] args)
         {
-            IDependendyInjection services = new DependendyInjection();
+            IDependendyInjection services = new DependencyInjection();
             IServiceProvider provider = services.ConfigureServices();
             IFornecedorService fornecedorService = provider.GetService<IFornecedorService>();
             GerarMenu(fornecedorService, string.Empty);

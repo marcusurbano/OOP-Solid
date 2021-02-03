@@ -8,7 +8,7 @@ using System;
 
 namespace Solid.Services
 {
-    public class DependendyInjection : ServiceCollection, IDependendyInjection
+    public class DependencyInjection : ServiceCollection, IDependendyInjection
     {
         public IServiceProvider ConfigureServices()
         {
