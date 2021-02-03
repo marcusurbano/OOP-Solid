@@ -1,4 +1,4 @@
-# OOP-Solid
+# OOP-SOLID
 
-Um breve código com a finalidade de demonstrar um pouco da aplicação dos Princípios SOLID.
+Um breve cÃ³digo com a finalidade de demonstrar um pouco da aplicaÃ§Ã£o dos PrincÃ­pios SOLID.
 
