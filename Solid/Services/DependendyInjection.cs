@@ -4,7 +4,6 @@ using Solid.Repository.Fornecedor;
 using Solid.Repository.Mock;
 using Solid.Services.Fornecedor;
 using System;
-using System.Collections.Generic;
 
 
 namespace Solid.Services
@@ -14,7 +13,7 @@ namespace Solid.Services
         public IServiceProvider ConfigureServices()
         {
             this
-                .AddScoped<IProdutoService, ProdutoService>()
+                .AddScoped<IFornecedorService, FornecedorService>()
                 .AddScoped<IFornecedorRepository, FornecedorRepository>()
                 .AddScoped<IContext, ContextMock>();
 
