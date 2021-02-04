@@ -1,7 +1,6 @@
 ﻿using Solid.Domain;
 using Solid.Extensions;
 using Solid.Repository.Fornecedor;
-using System;
 using System.Collections.Generic;
 
 namespace Solid.Services.Fornecedor

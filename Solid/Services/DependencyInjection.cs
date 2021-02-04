@@ -3,6 +3,7 @@ using Solid.Repository;
 using Solid.Repository.Fornecedor;
 using Solid.Repository.Mock;
 using Solid.Services.Fornecedor;
+using Solid.Services.Produto;
 using System;
 
 
@@ -15,6 +16,7 @@ namespace Solid.Services
             this
                 .AddScoped<IFornecedorService, FornecedorService>()
                 .AddScoped<IFornecedorRepository, FornecedorRepository>()
+                .AddScoped<IProdutoService, ProdutoService>()
                 .AddScoped<IContext, ContextMock>();
 
             return this.BuildServiceProvider();
